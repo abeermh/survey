@@ -1,0 +1,89 @@
+body{
+    color:#f5f6f7;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    background-image: url(https://learn.canva.com/wp-content/uploads/2020/02/removing-background-images_Unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1,p{
+    text-align: center;
+    margin: 0.2em auto;
+    font-family: "Raleway",sans-serif;
+}
+
+h1{
+    font-size:34px;
+    padding-top:1em;
+}
+
+p{
+    font-size:18px;
+    margin-bottom: 1em;
+}
+
+form{
+    width: 60%;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:#265175d8;
+    padding: 20px;
+    
+}
+
+input,label {
+    display:block;
+    width: 100%;
+    margin: 1em auto;
+    box-sizing: border-box;
+}
+
+input{
+  
+    margin-top: -5px;
+    padding:5px;
+    border-color: #f5f6f7;
+
+}
+
+input[type="checkbox"],input[type="radio"]{
+    width: unset;
+    vertical-align:middle;
+    margin: 0 0.5em .2em 0;
+    display:inline-block;
+
+}
+
+input[type="submit"]{
+    background-color:#99608bd8;
+    border-color: #f5f6f7;
+    width: 60%;
+    margin: 0px auto;
+    height: 3em;
+    border-width: 3px;
+    min-width: 300px;
+    color:#f5f6f7;
+    font-size:15px;
+    font-family: 'Raleway',sans-serif;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+select{
+    background:  #265175d8;
+    color: #f5f6f7;
+    margin: 5px auto;
+    padding:5px;
+    width:100%;
+}
+
+*{
+    border-radius: 4px;;
+}
